@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+.shift-right
+{float:right;
+}
+/*General*/
+
+#piechart {
+    overflow: hidden;
+}
+
+.nav-link {
+    text-align: right;
+}
+
+/*footer*/
+
+.footer-container {
+    padding: 50px;
+}
+
+.footer-copyright {
+    font-size: 18px;
+}
+
+.footer-icons i {
+    margin-right: 15px;
+}
+
+/*gym-section*/
+
+.gym-section {
+    padding: 20px;
+}
+
+.gym-section p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+/*table-section*/
+
+.table-section {
+    padding: 0;
+}
+
+.table {
+    width: 100%;
+}
+
+.table-section table tbody {
+    max-height: 230px;
+    overflow-y: scroll;
+    width: 100%;
+    display: block;
+}
+
+thead, tbody tr {
+    display:table;
+    width: 100%;
+    table-layout:fixed;
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-link {
+        margin-left: 50px;
+        text-align: left;
+    }
+    .table {
+        width: 75%;
+    }
+    .table-section {
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav {
+        padding-top: 30px;
+    }
+    .footer-container {
+        padding: 50px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .footer-container {
+        padding: 50px 40px;
+    }
+}
